@@ -9,13 +9,11 @@ public class ConectaDAO {
         Connection conn = null;
         
         try {
-            // Carregar o driver JDBC
             Class.forName("com.mysql.cj.jdbc.Driver");
             
-            // String de conexão - AJUSTE A SENHA SE PRECISAR
-            String url = "jdbc:mysql://localhost:3306/leilao?useTimezone=true&serverTimezone=UTC";
+            String url = "jdbc:mysql://localhost:3306/leilao";
             String user = "root";
-            String password = "Maguila02"; // ← Se seu MySQL tem senha, coloque aqui
+            String password = "";
             
             conn = DriverManager.getConnection(url, user, password);
             
