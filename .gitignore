@@ -7,12 +7,23 @@ bin/
 *.war
 *.ear
 
+# NetBeans
+nbproject/private/
+nbproject/
+build.xml
+/nbproject/build-impl.xml
+/nbproject/project.properties
+/nbproject/project.xml
+*.orig
+
 # Arquivos do IDE
 .settings/
 .idea/
 *.iml
 *.ipr
 *.iws
+.classpath
+.project
 
 # Arquivos do sistema
 .DS_Store
